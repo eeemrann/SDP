@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BUP - Bangladesh University of Professionals</title>
+  <style>
+    /* Reset basic styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #282A35;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+
+    .logo {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .nav-links li a:hover {
+      color: #04AA6D;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #04AA6D;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+    }
+
+    /* Cards Section */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+      color: #04AA6D;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #282A35;
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">BUP</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Faculties</a></li>
+      <li><a href="#">Admission</a></li>
+      <li><a href="#">Research</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to BUP</h1>
+    <p>Empowering the future through excellence in education</p>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h2>Faculty of Science & Technology</h2>
+      <p>Innovative education in CSE, ICT & more</p>
+    </div>
+    <div class="card">
+      <h2>Faculty of Business Studies</h2>
+      <p>Leadership in Finance, Marketing, Management</p>
+    </div>
+    <div class="card">
+      <h2>Faculty of Security & Strategic Studies</h2>
+      <p>Understanding global and national security</p>
+    </div>
+    <div class="card">
+      <h2>Faculty of Medical Studies</h2>
+      <p>Excellence in medical education and research</p>
+    </div>
+    <div class="card">
+      <h2>Faculty of Arts & Social Sciences</h2>
+      <p>Creativity meets critical thinking</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Bangladesh University of Professionals</p>
+    <p>Mirpur Cantonment, Dhaka-1216 | info@bup.edu.bd | +880-2-8000368</p>
+  </footer>
+
+</body>
+</html>
